@@ -1,46 +1,43 @@
 .menu {
     margin: 0;
     padding: 0;
-    /*z-index: 10;*/
 }
 
+/* Full menu including hidden areas */
 .menu li {
     float: left;
-    font: bold 12px sans-serif;
+    font: bold 24px 'Acme', sans-serif;
     list-style: none;
 }
 
+/* Menu and drop down*/
 .menu li a {
     background: #59B270;
     color: #ffffff;
     display: block;
     margin-right: 1px;
-    padding: 4px 10px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
-    width: 60px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
-.menu li a:hover {
-    background: #FFA349;
-}
-
+/* Drop down only*/
 .menu div {
     border: 1px solid #70B259;
     visibility: hidden;
 }
 
+/* Individual menu items*/
 .menu div a {
-    background: #EBEAD8;
+    background: #FFFAF0;
     color: #DE7528;
-    font: 12px sans-serif;
+    font: 22px 'Acme', sans-serif;
     padding: 5px 10px;
     text-align: left;
-    text-decoration: none;
-    white-space: nowrap;
-    width: auto;
 }
 
+/* Individual menu items on hover*/
 .menu div a:hover {
     background: #FFA349;
     color: #ffffff;

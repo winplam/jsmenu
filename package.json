@@ -1,0 +1,27 @@
+{
+  "name": "jsmenu",
+  "version": "1.0.0",
+  "description": "A simple drop-down menu generated entirelly from JavaScript",
+  "main": "src/jsmenu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch --mode=development",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winplam/jsmenu.git"
+  },
+  "author": "Win Lam <win.lam@ccierackrentals.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winplam/jsmenu/issues"
+  },
+  "homepage": "https://github.com/winplam/jsmenu#readme",
+  "keywords": [],
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
