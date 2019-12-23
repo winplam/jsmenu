@@ -1,0 +1,44 @@
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+/* Full menu including hidden areas */
+.menu li {
+    float: left;
+    font: bold 24px 'Acme', sans-serif;
+    list-style: none;
+}
+
+/* Menu and drop down*/
+.menu li a {
+    background: #59B270;
+    color: #ffffff;
+    display: block;
+    margin-right: 1px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Drop down only*/
+.menu div {
+    border: 1px solid #70B259;
+    visibility: hidden;
+}
+
+/* Individual menu items*/
+.menu div a {
+    background: #FFFAF0;
+    color: #DE7528;
+    font: 22px 'Acme', sans-serif;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+/* Individual menu items on hover*/
+.menu div a:hover {
+    background: #FFA349;
+    color: #ffffff;
+}
